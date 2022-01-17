@@ -1,0 +1,31 @@
+{
+  "name": "backend-course",
+  "version": "1.0.0",
+  "description": "Backend course in node",
+  "main": "server.js",
+  "type":"module",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "SET NODE_ENV=production && node server",
+    "dev":"nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aditya25022001/backend-course.git"
+  },
+  "author": "Aditya Uday Ubale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aditya25022001/backend-course/issues"
+  },
+  "homepage": "https://github.com/aditya25022001/backend-course#readme",
+  "dependencies": {
+    "dotenv": "^14.1.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.7"
+  }
+}
